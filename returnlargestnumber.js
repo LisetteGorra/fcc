@@ -1,14 +1,18 @@
 function largestOfFour(arr) {
-    
+    var largestNumber = [];
     // access each individual element of each sub array i.e. 4
     for (var i = 0; i < arr.length; i++){ // this loop gives you access to sub arrays, length = 4
+            // var tempMax = arr[i][0]; // this loops through 1st element of each subarray and stores it for later in tempMax
         for (var j = 0; j < arr[i].length; j++){ // this loop gives access to elements inside subarray arr[i] is looping through sub array but the .length lets us go inside the sub array
+        //test output to confirm that we have access to each individual element
+        console.log(arr[i][j]);
             
         }
+        
     }
     
-    
-    return arr;
+
+   
     
 }
 //DRY ... Don't Repeat Yourself, keeps you from repeating your code over and over again, to use this program just call out the function when you need it.
