@@ -14,8 +14,9 @@ function largestOfFour(arr) {
         largestNumbers.push(largestNumber);
        
     }
-     console.log(largestNumbers);
+    return largestNumbers;
+    //  console.log(largestNumbers);
     
 }
 //DRY ... Don't Repeat Yourself, keeps you from repeating your code over and over again, to use this program just call out the function when you need it.
-largestOfFour([[4,5,1,3],[13,27,18,26], [32,35,37,39],[1000,1001,857,1]]);
+console.log(largestOfFour([[4,5,1,3],[13,27,18,26], [32,35,37,39],[1000,1001,857,1]]));
