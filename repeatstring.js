@@ -2,12 +2,14 @@ function repeatString( string, repeatNumTimes){
     if( repeatNumTimes < 0){
         return "";
     }
-    for (var i = 0; i < repeatNumTimes; i++){
-        console.log(string);
+    var returnString = "";
+    for (var i = 0; i < repeatNumTimes; i++){ // this loop prints on different lines
+        returnString += string;
     }
+    return returnString;
 }
 
-repeatString("Arnell", 2);
+console.log(repeatString("Arnell", 5));
 
 
 
